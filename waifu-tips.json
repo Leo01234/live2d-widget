@@ -45,20 +45,17 @@
 		"selector": ".busuanzi-footer",
 		"text": ["这是文章的统计信息～"]
 	}, {
-		"selector": ".iconfont.icon-rss a[title='rss']",
-		"text": ["这里可以使用 RSS 订阅呢！", "利用 feed 订阅器，就能快速知道博客有没有更新了呢。"]
-	}, {
 		"selector": ".post-copyright",
 		"text": ["要记得规范转载哦。", "所有文章均采用 CC BY-NC-ND 4.0 许可协议～", "转载前要先注意下文章的版权协议呢。"]
 	}, {
 		"selector": ".social-links",
 		"text": ["这里是主人的常驻地址哦。", "这里有主人的联系方式！"]
 	}, {
-		"selector": "figure > img",
+		"selector": "img",
 		"text": ["点击图片可以放大呢！"]
 	}, {
 		"selector": "a[href^='mailto'][title='email']",
-		"text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
+		"text": ["点击就可以发送邮件啦～"]
 	}, {
 		"selector": "a[href^='/tags/']:not([href='/tags/'])",
 		"text": ["要去看看 <span>{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
@@ -75,26 +72,26 @@
 		"selector": ".back-to-top",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
-		"selector": ".post-nav .next a",
+		"selector": ".post-nav .next",
 		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
 	}, {
-		"selector": ".post-nav .prev a",
+		"selector": ".post-nav .prev",
 		"text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
 	}, {
-		"selector": ".pagination .next a",
+		"selector": ".pagination .next",
 		"text": ["去下一页看看吧。", "点它可以前进哦！", "要翻到下一页吗？"]
 	}, {
-		"selector": ".pagination .prev a",
+		"selector": ".pagination .prev",
 		"text": ["去上一页看看吧。", "点它可以后退哦！", "要翻到上一页吗？"]
 	}, {
-		"selector": "#gitalk-container",
+		"selector": ".gt-container",
 		"text": ["想要去评论些什么吗？", "要说点什么吗？", "觉得博客不错？快来留言和主人交流吧！"]
 	}],
 	"click": [{
 		"selector": "#waifu #live2d",
 		"text": ["是…是不小心碰到了吧…", "萝莉控是什么呀？", "你看到我的小熊了吗？", "再摸的话我可要报警了！⌇●﹏●⌇", "110 吗，这里有个变态一直在摸我(ó﹏ò｡)", "不要摸我了，我会告诉老婆来打你的！", "干嘛动我呀！小心我咬你！", "别摸我，有什么好摸的！"]
 	}, {
-		"selector": "#gitalk-container",
+		"selector": ".gt-container",
 		"text": ["要吐槽些什么呢？", "一定要认真填写喵～", "有什么想说的吗？"]
 	}],
 	"seasons": [{
